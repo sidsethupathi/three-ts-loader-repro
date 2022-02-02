@@ -1,0 +1,22 @@
+{
+  "name": "three-ts-loader-testing",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Sid Sethupathi <sid.sethupathi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --open --inline --watch-content-base --liveReload",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "three": "0.137.4",
+    "three-stdlib": "2.8.4",
+    "ts-loader": "9.2.3",
+    "typescript": "4.3.5",
+    "webpack": "^5.44.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
